@@ -1,0 +1,30 @@
+.mainDiv{
+    border: 10px solid palegreen;
+    text-align: center;
+    background-color: wheat;
+    padding: 50vh;
+    margin:0;
+    animation: 10000ms ease-in-out infinite color-change;
+}
+
+  
+  @keyframes color-change {
+    0% {
+      background-color: palegreen;
+    }
+    20% {
+      background-color: gold;
+    }
+    40% {
+      background-color: lightskyblue;
+    }
+    60% {
+      background-color: violet;
+    }
+    80% {
+      background-color: goldenrod;
+    }
+    100% {
+      background-color: teal;
+    }
+  }
