@@ -1,0 +1,19 @@
+   
+.subdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 10px solid palegreen;
+    padding: 100PX;
+    background-color: palegreen;
+    border-radius: 50PX;
+}
+.maindiv{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height:100vh;
+    flex-direction: column;
+
+}
